@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Projects", "Test Projects", "{04E31B18-3993-40A5-A2EE-CD049A794317}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{87CF7E24-3E33-446E-BD69-7B6C66F5633D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XamarinClient", "XamarinClient", "{ABC34196-CFDA-4972-A5FB-5E3F72E33A0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTests", "TestProjects\ServiceTests\ServiceTests.csproj", "{E582E602-BA5E-4912-8C44-58BE98A3AB8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceAbstractions", "Service\ServiceAbstractions\ServiceAbstractions.csproj", "{49809CB0-A007-4186-9BEC-ADBFB95170F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleService", "Service\SimpleService\SimpleService.csproj", "{9519946C-D570-4564-8913-335D5192EC28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E582E602-BA5E-4912-8C44-58BE98A3AB8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E582E602-BA5E-4912-8C44-58BE98A3AB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E582E602-BA5E-4912-8C44-58BE98A3AB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E582E602-BA5E-4912-8C44-58BE98A3AB8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49809CB0-A007-4186-9BEC-ADBFB95170F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49809CB0-A007-4186-9BEC-ADBFB95170F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49809CB0-A007-4186-9BEC-ADBFB95170F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49809CB0-A007-4186-9BEC-ADBFB95170F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9519946C-D570-4564-8913-335D5192EC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9519946C-D570-4564-8913-335D5192EC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9519946C-D570-4564-8913-335D5192EC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9519946C-D570-4564-8913-335D5192EC28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E582E602-BA5E-4912-8C44-58BE98A3AB8D} = {04E31B18-3993-40A5-A2EE-CD049A794317}
+		{49809CB0-A007-4186-9BEC-ADBFB95170F2} = {87CF7E24-3E33-446E-BD69-7B6C66F5633D}
+		{9519946C-D570-4564-8913-335D5192EC28} = {87CF7E24-3E33-446E-BD69-7B6C66F5633D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1516581-CDCC-483F-A5FA-018221A7B215}
+	EndGlobalSection
+EndGlobal
