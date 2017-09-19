@@ -10,7 +10,7 @@ using ServiceHost;
 namespace ServiceTests
 {
     [TestFixture]
-    public class TestClass1
+    public class SimpleServiceTests
     {
         [Test]
         public async Task CallSimpleServiceHTTP_Test()

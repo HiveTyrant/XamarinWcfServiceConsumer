@@ -55,7 +55,7 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestClass1.cs" />
+    <Compile Include="SimpleServiceTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
