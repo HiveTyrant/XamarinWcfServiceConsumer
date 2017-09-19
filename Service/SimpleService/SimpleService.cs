@@ -11,12 +11,15 @@ namespace SimpleService
     {
         public void SinkRequest(string request)
         {
-            // Do absolutely nothing with request
+            Console.WriteLine($"SinkRequest called with parameter: {request}");
         }
 
         public SimpleResponse GetSimpleResponse(string request)
         {
-            return new SimpleResponse {Request = request, ResponseTime = DateTime.Now};
+            var result = new SimpleResponse {Request = request, ResponseTime = DateTime.Now};
+
+            Console.WriteLine($"GetSimpleResponse called with parameter: {request}, return value: {result.ResponseTime}");
+            return result;
         }
     }
 }
