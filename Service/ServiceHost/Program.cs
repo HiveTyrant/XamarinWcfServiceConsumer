@@ -33,6 +33,7 @@ namespace ServiceHost
 
         private static void HostSimpleService(int basePort)
         {
+            Console.WriteLine($"Preparing hosting of service...");
             _serviceHost?.Close();
 
             // Remember: in Dos prompt (Admin rights): netsh http add urlacl url=http://+:{basePort}/SimpleService user=Everyone
@@ -52,6 +53,10 @@ namespace ServiceHost
             //_serviceHost.AddServiceEndpoint(typeof(IMetadataExchange), MetadataExchangeBindings.CreateMexTcpBinding(), "mex");
 
             _serviceHost.Open();
+            
+            Console.WriteLine("SimpleService now hosted on these endpoints:");
+            Console.WriteLine($"- {httpEndpoint}");
+            Console.WriteLine($"- {tcpEndpoint}");
         }
     }
 }

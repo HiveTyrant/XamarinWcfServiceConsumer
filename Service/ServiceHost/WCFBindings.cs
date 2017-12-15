@@ -13,10 +13,10 @@ namespace ServiceHost
         public static BasicHttpBinding GetBasicHttpBinding()
         {
             BasicHttpBinding binding = new BasicHttpBinding();
-            binding.SendTimeout = new TimeSpan(0, 4, 0, 0);
-            binding.ReceiveTimeout = new TimeSpan(0, 4, 0, 0);
-            binding.OpenTimeout = new TimeSpan(0, 0, 1, 0);
-            binding.CloseTimeout = new TimeSpan(0, 0, 10, 0);
+            binding.SendTimeout = new TimeSpan(0, 0, 0, 10);
+            binding.ReceiveTimeout = new TimeSpan(0, 0, 0, 10);
+            binding.OpenTimeout = new TimeSpan(0, 0, 0, 10);
+            binding.CloseTimeout = new TimeSpan(0, 0, 0, 10);
             binding.Security.Mode = BasicHttpSecurityMode.None;
             binding.Security.Message.ClientCredentialType = BasicHttpMessageCredentialType.UserName;
             binding.MaxReceivedMessageSize = 2147483647;

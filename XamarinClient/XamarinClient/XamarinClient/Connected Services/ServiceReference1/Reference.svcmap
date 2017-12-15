@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4edc62a4-2e60-4492-ba51-a6222de607c5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9001/SimpleService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="b5dc599e-c2ec-4854-b60c-201dfa08bee5" SourceId="1" SourceUrl="http://localhost:9001/SimpleService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="eebacea3-f971-4c97-8aad-bba1908778b6" SourceId="1" SourceUrl="http://localhost:9001/SimpleService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="47d4626a-1305-4716-9cea-8df18642df12" SourceId="1" SourceUrl="http://localhost:9001/SimpleService/mex" />
+    <MetadataFile FileName="ServiceAbstractions.SimpleService.xsd" MetadataType="Schema" ID="c1cf8080-c746-415a-b03d-90137f13bcc8" SourceId="1" SourceUrl="http://localhost:9001/SimpleService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
